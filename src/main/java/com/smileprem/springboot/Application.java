@@ -1,11 +1,11 @@
-package com.tesco.transportation.tracking;
+package com.smileprem.springboot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.context.embedded.FilterRegistrationBean;
 import org.springframework.context.annotation.Bean;
 
-import com.tesco.transportation.tracking.filter.HelloWorldFilter;
+import com.smileprem.springboot.filter.HelloWorldFilter;
 
 @SpringBootApplication
 public class Application {

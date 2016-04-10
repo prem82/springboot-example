@@ -1,4 +1,4 @@
-package com.tesco.transportation.tracking.filter;
+package com.smileprem.springboot.filter;
 
 import java.io.IOException;
 
@@ -19,9 +19,12 @@ public class HelloWorldFilter implements Filter {
 
   @Override
   public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain chain) throws IOException, ServletException {
-    System.out.println("Hello World Filter ");
+    System.out.println("Hello World Filter - START");
     chain.doFilter(servletRequest, servletResponse);
-    System.err.println("after chain");
+    System.err.println("After chain.doFilter()");
+    System.out.println("Hello World Filter - CONTINUES");
+    System.out.println("Post processing logic, usually on response");
+    System.out.println("Hello World Filter - END");
   }
 
   @Override

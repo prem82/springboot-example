@@ -1,4 +1,4 @@
-package com.tesco.transportation.tracking.web;
+package com.smileprem.springboot.web;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
